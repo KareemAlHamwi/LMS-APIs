@@ -9,34 +9,36 @@ http:
   headers:
     - name: Accept
       value: application/json
+    - name: Accept-Language
+      value: ar
   body:
     type: multipart-form
     data:
       - name: first_name
         type: text
-        value: someone
+        value: ""
       - name: last_name
         type: text
-        value: somewhere
+        value: ""
       - name: address
         type: text
-        value: a street somewhere
+        value: ""
       - name: phone_number
         type: text
-        value: "205051805180"
+        value: ""
       - name: birthdate
         type: text
-        value: 1988-05-22
+        value: ""
       - name: bio
         type: text
-        value: i hate my life
+        value: ""
       - name: email
         type: text
-        value: whateverrr@gmail.com
+        value: ""
         disabled: true
   auth:
     type: bearer
-    token: ZSo8wdTcyHSYM8GpcAny8WhHwbgh2HdieWsXFwP66ab1e370
+    token: ""
 
 settings:
   encodeUrl: true

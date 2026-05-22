@@ -1,7 +1,7 @@
 info:
   name: Login
   type: http
-  seq: 1
+  seq: 2
 
 http:
   method: POST
@@ -9,15 +9,17 @@ http:
   headers:
     - name: Accept
       value: application/json
+    - name: Accept-Language
+      value: ar
   body:
     type: multipart-form
     data:
       - name: email
         type: text
-        value: whatever@gmail.com
+        value: ""
       - name: password
         type: text
-        value: Admin@123
+        value: ""
   auth: inherit
 
 settings:
