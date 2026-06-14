@@ -1,5 +1,5 @@
 info:
-  name: Search Google Books
+  name: Google Search Books
   type: http
   seq: 1
 

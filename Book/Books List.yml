@@ -1,11 +1,11 @@
 info:
-  name: Cancel Email Change
+  name: Books List
   type: http
   seq: 3
 
 http:
-  method: POST
-  url: http://127.0.0.1:8000/api/user/cancel-email-change
+  method: GET
+  url: http://127.0.0.1:8000/api/books
   headers:
     - name: Accept
       value: application/json

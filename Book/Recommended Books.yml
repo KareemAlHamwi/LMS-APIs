@@ -1,16 +1,22 @@
 info:
-  name: Cancel Email Change
+  name: Recommended Books
   type: http
-  seq: 3
+  seq: 4
 
 http:
-  method: POST
-  url: http://127.0.0.1:8000/api/user/cancel-email-change
+  method: GET
+  url: http://127.0.0.1:8000/api/books/recommended
   headers:
     - name: Accept
       value: application/json
     - name: Accept-Language
       value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: per_page
+        type: text
+        value: ""
   auth:
     type: bearer
     token: ""
