@@ -10,7 +10,7 @@ http:
     type: json
     data: |-
       {
-          "amount": 500000
+          "amount": 30000
       }
   auth:
     type: bearer

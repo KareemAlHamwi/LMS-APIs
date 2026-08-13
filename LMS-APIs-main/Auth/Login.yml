@@ -24,9 +24,13 @@ http:
         type: text
         value: ahmadnasaoud@gmail.com
         disabled: true
-      - name: ""
+      - name: c
         type: text
         value: i19077991@gmail.com‏
+        disabled: true
+      - name: ""
+        type: text
+        value: allaithalhassan8@gmail.com
   auth: inherit
 
 settings:

@@ -16,7 +16,7 @@ http:
     data:
       - name: title
         type: text
-        value: Tr
+        value: Syria
       - name: description
         type: text
         value: Meduim
@@ -67,10 +67,10 @@ http:
         value: ""
       - name: price
         type: text
-        value: "200"
+        value: "1500"
   auth:
     type: bearer
-    token: 1|1RT4fLCprrxfx8JN6o1qLIgZjqcHSR13BtU1M3036f7c64d4
+    token: 2|Cehfes2STZ5DQxlu7MOEfkTFoZ2Knb4iZa9bxTHUc7c4fd12
 
 settings:
   encodeUrl: true

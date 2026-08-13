@@ -14,7 +14,7 @@ http:
       }
   auth:
     type: bearer
-    token: 1|qcU8cL3EBNE5IyzYi6ZTWAqHzP6BstAuZpesyq4k105a1aa1
+    token: 1|DBHsDW8w3YthxOmkTCdgC0KuAPD4t7i2nIsWqjUe8a47260e
 
 settings:
   encodeUrl: true

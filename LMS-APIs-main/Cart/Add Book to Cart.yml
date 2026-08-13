@@ -11,11 +11,11 @@ http:
     data: |-
       {
         "book_id": 3,
-        "quantity":1
+        "quantity":3
       }
   auth:
     type: bearer
-    token: 1|1RT4fLCprrxfx8JN6o1qLIgZjqcHSR13BtU1M3036f7c64d4
+    token: 7|sJkyQhMCsRlLGXXJJSNRjv68NQxM6Iqz9wcK9otyd6f11fae
 
 settings:
   encodeUrl: true

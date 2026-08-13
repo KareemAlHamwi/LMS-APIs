@@ -8,7 +8,7 @@ http:
   url: http://127.0.0.1:8000/api/cart
   auth:
     type: bearer
-    token: 6|K8rMoPtBwKpEVn7TrxV1aryVAw2idZapO1lYZOor6f74de8e
+    token: 1|DBHsDW8w3YthxOmkTCdgC0KuAPD4t7i2nIsWqjUe8a47260e
 
 settings:
   encodeUrl: true
