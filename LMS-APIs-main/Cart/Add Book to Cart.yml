@@ -1,0 +1,24 @@
+info:
+  name: Add Book to Cart
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/cart/add
+  body:
+    type: json
+    data: |-
+      {
+        "book_id": 3,
+        "quantity":1
+      }
+  auth:
+    type: bearer
+    token: 1|1RT4fLCprrxfx8JN6o1qLIgZjqcHSR13BtU1M3036f7c64d4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

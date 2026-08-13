@@ -1,0 +1,17 @@
+info:
+  name: Get Wallet transations by type
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/wallet/transactions/credit
+  auth:
+    type: bearer
+    token: 1|bC2dmZg9ogLkwQELZhsAeuzHj1nCMufE6ygvPuNfae027c9d
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,79 @@
+info:
+  name: Add Book
+  type: http
+  seq: 8
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/books
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: title
+        type: text
+        value: Tr
+      - name: description
+        type: text
+        value: Meduim
+      - name: cover_image
+        type: text
+        value: ""
+      - name: publisher
+        type: text
+        value: ahmed
+      - name: published_date
+        type: text
+        value: ""
+      - name: page_count
+        type: text
+        value: ""
+      - name: isbn
+        type: text
+        value: ""
+      - name: language
+        type: text
+        value: ""
+      - name: total_copies
+        type: text
+        value: "90"
+      - name: available_copies
+        type: text
+        value: "76"
+      - name: total_stock_copies
+        type: text
+        value: "99"
+      - name: available_stock_copies
+        type: text
+        value: "200"
+      - name: google_volume_id
+        type: text
+        value: ""
+      - name: author_ids[0]
+        type: text
+        value: "1"
+      - name: author_ids
+        type: text
+        value: ""
+      - name: category_ids[0]
+        type: text
+        value: "1"
+      - name: category_ids
+        type: text
+        value: ""
+      - name: price
+        type: text
+        value: "200"
+  auth:
+    type: bearer
+    token: 1|1RT4fLCprrxfx8JN6o1qLIgZjqcHSR13BtU1M3036f7c64d4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

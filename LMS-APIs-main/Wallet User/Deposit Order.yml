@@ -1,0 +1,24 @@
+info:
+  name: Deposit Order
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/wallet/request-topup
+  body:
+    type: json
+    data: |-
+      {
+          "amount": 50000,
+          "payment_method": "bank_transfer"
+      }
+  auth:
+    type: bearer
+    token: 1|1RT4fLCprrxfx8JN6o1qLIgZjqcHSR13BtU1M3036f7c64d4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

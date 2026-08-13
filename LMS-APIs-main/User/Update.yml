@@ -1,0 +1,47 @@
+info:
+  name: Update
+  type: http
+  seq: 5
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/user
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: first_name
+        type: text
+        value: ""
+      - name: last_name
+        type: text
+        value: ""
+      - name: address
+        type: text
+        value: ""
+      - name: phone_number
+        type: text
+        value: ""
+      - name: birthdate
+        type: text
+        value: ""
+      - name: bio
+        type: text
+        value: ""
+      - name: email
+        type: text
+        value: ""
+        disabled: true
+  auth:
+    type: bearer
+    token: ""
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,23 @@
+info:
+  name: Wallet Deposit
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/wallet/deposit
+  body:
+    type: json
+    data: |-
+      {
+          "amount": 500000
+      }
+  auth:
+    type: bearer
+    token: 8|aih5SaOSrxKE2SKevB3fEkcOIDNyAs6VxHM7KT38926489c2
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
