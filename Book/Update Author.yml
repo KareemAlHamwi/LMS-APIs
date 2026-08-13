@@ -1,0 +1,37 @@
+info:
+  name: Update Author
+  type: http
+  seq: 14
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/authors/1
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: name[en]
+        type: text
+        value: ""
+      - name: name[ar]
+        type: text
+        value: ""
+      - name: bio[en]
+        type: text
+        value: ""
+      - name: bio[ar]
+        type: text
+        value: ""
+  auth:
+    type: bearer
+    token: ""
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

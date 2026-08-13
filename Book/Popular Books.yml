@@ -1,0 +1,28 @@
+info:
+  name: Popular Books
+  type: http
+  seq: 6
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/books/popular
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: per_page
+        type: text
+        value: ""
+  auth:
+    type: bearer
+    token: ""
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
