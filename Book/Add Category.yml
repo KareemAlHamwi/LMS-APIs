@@ -1,0 +1,31 @@
+info:
+  name: Add Category
+  type: http
+  seq: 18
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/categories
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: name[en]
+        type: text
+        value: ""
+      - name: name[ar]
+        type: text
+        value: ""
+  auth:
+    type: bearer
+    token: ""
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

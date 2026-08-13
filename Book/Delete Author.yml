@@ -1,0 +1,24 @@
+info:
+  name: Delete Author
+  type: http
+  seq: 15
+
+http:
+  method: DELETE
+  url: http://127.0.0.1:8000/api/authors/1
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  body:
+    type: multipart-form
+  auth:
+    type: bearer
+    token: ""
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
