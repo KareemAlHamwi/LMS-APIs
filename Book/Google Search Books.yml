@@ -1,0 +1,35 @@
+info:
+  name: Google Search Books
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/books/google/search?q=&lang=&per_page=&order_by=
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  params:
+    - name: q
+      value: ""
+      type: query
+    - name: lang
+      value: ""
+      type: query
+    - name: per_page
+      value: ""
+      type: query
+    - name: order_by
+      value: ""
+      type: query
+  auth:
+    type: bearer
+    token: F55BBW8RBDgisRYOjR7ULjMPGrykIH9EzHItpP0D31aeb90b
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,11 +1,11 @@
 info:
-  name: Cancel Email Change
+  name: My Profile
   type: http
-  seq: 3
+  seq: 2
 
 http:
-  method: POST
-  url: http://127.0.0.1:8000/api/user/cancel-email-change
+  method: GET
+  url: http://127.0.0.1:8000/api/user/me
   headers:
     - name: Accept
       value: application/json
