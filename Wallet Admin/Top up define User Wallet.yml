@@ -1,0 +1,25 @@
+info:
+  name: Top up define User Wallet
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/wallet/admin-topup
+  body:
+    type: json
+    data: |-
+      {
+          "user_id": 1,
+          "amount": 50000,
+          "note": "مكافأة شهرية"
+      }
+  auth:
+    type: bearer
+    token: 1|DBHsDW8w3YthxOmkTCdgC0KuAPD4t7i2nIsWqjUe8a47260e
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

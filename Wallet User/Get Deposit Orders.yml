@@ -1,0 +1,17 @@
+info:
+  name: Get Deposit Orders
+  type: http
+  seq: 7
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/wallet/my-topup-requests
+  auth:
+    type: bearer
+    token: 6|r45ECgn88GFIviv1X5iOItNv3JnugHSoctNf1ThM5e586af6
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,17 @@
+info:
+  name: Get top up requests
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/wallet/admin/topup-requests
+  auth:
+    type: bearer
+    token: 5|Lxchvu0sSTWJtvKy5XvHm7cG702tSA5gfCS2q3C33d51a2f4
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,23 @@
+info:
+  name: Convert Request
+  type: http
+  seq: 5
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/reward/request-convert
+  body:
+    type: json
+    data: |-
+      {
+          "points": 600
+      }
+  auth:
+    type: bearer
+    token: 1|mYmSiahZkBjbOaez2WZhx1F1uhEOd7VHE0oQsdOM47c1414a
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

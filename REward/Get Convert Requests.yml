@@ -1,0 +1,17 @@
+info:
+  name: Get Convert Requests
+  type: http
+  seq: 6
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/reward/my-requests
+  auth:
+    type: bearer
+    token: 1|KFIBfHwV7FXVsEJKSantGeJf1SbBgb6xQd2Rp8eRb489b62c
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,17 @@
+info:
+  name: Purchase by Loyalty Ponts
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/purchase/checkout/loyalty
+  auth:
+    type: bearer
+    token: 1|mYmSiahZkBjbOaez2WZhx1F1uhEOd7VHE0oQsdOM47c1414a
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
