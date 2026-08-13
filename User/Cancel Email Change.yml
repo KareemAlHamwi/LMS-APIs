@@ -1,0 +1,20 @@
+info:
+  name: Cancel Email Change
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/user/cancel-email-change
+  headers:
+    - name: Accept
+      value: application/json
+  auth:
+    type: bearer
+    token: QzFzI64qORCXqZ3dv3kmfQ5qxqay3T0pParuWiCl9fc2770c
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

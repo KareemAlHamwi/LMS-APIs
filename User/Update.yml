@@ -1,0 +1,45 @@
+info:
+  name: Update
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: http://127.0.0.1:8000/api/user
+  headers:
+    - name: Accept
+      value: application/json
+  body:
+    type: multipart-form
+    data:
+      - name: first_name
+        type: text
+        value: someone
+      - name: last_name
+        type: text
+        value: somewhere
+      - name: address
+        type: text
+        value: a street somewhere
+      - name: phone_number
+        type: text
+        value: "205051805180"
+      - name: birthdate
+        type: text
+        value: 1988-05-22
+      - name: bio
+        type: text
+        value: i hate my life
+      - name: email
+        type: text
+        value: whateverrr@gmail.com
+        disabled: true
+  auth:
+    type: bearer
+    token: ZSo8wdTcyHSYM8GpcAny8WhHwbgh2HdieWsXFwP66ab1e370
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

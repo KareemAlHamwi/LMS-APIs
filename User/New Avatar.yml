@@ -1,0 +1,26 @@
+info:
+  name: New Avatar
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/user/avatar
+  headers:
+    - name: Accept
+      value: application/json
+  body:
+    type: multipart-form
+    data:
+      - name: avatar
+        type: text
+        value: ""
+  auth:
+    type: bearer
+    token: hkmyQwZWTdsMwMV14Jv4sYevJbuOxly9945DP9kTd3da5cfb
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
