@@ -1,0 +1,17 @@
+info:
+  name: Delete Specific  Notification
+  type: http
+  seq: 4
+
+http:
+  method: DELETE
+  url: http://127.0.0.1:8000/api/notifications/66385e72-45e6-4927-b745-ab8bf655a939
+  auth:
+    type: bearer
+    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
