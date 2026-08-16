@@ -1,21 +1,19 @@
 info:
-  name: Delete Book
+  name: My Reviews
   type: http
-  seq: 11
+  seq: 2
 
 http:
-  method: DELETE
-  url: http://127.0.0.1:8000/api/books/1
+  method: GET
+  url: http://127.0.0.1:8000/api/my-reviews
   headers:
     - name: Accept
       value: application/json
     - name: Accept-Language
       value: ar
-  body:
-    type: multipart-form
   auth:
     type: bearer
-    token: ""
+    token: TrsCEK22XBiCgB4XHJ1bCkQWy6ETwxIOsh9HRcGb54228664
 
 settings:
   encodeUrl: true

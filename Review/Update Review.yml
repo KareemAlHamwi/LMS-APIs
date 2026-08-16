@@ -1,11 +1,11 @@
 info:
-  name: Add Author
+  name: Update Review
   type: http
-  seq: 14
+  seq: 4
 
 http:
-  method: POST
-  url: http://127.0.0.1:8000/api/authors
+  method: PUT
+  url: http://127.0.0.1:8000/api/reviews/1
   headers:
     - name: Accept
       value: application/json
@@ -14,21 +14,16 @@ http:
   body:
     type: multipart-form
     data:
-      - name: name[en]
+      - name: rating
         type: text
         value: ""
-      - name: name[ar]
+      - name: comment
         type: text
         value: ""
-      - name: bio[en]
-        type: text
-        value: ""
-      - name: bio[ar]
-        type: text
-        value: ""
+        disabled: true
   auth:
     type: bearer
-    token: ""
+    token: TrsCEK22XBiCgB4XHJ1bCkQWy6ETwxIOsh9HRcGb54228664
 
 settings:
   encodeUrl: true
