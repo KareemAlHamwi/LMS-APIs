@@ -1,16 +1,28 @@
 info:
-  name: Category
+  name: Update Category
   type: http
-  seq: 18
+  seq: 21
 
 http:
-  method: GET
+  method: POST
   url: http://127.0.0.1:8000/api/categories/1
   headers:
     - name: Accept
       value: application/json
     - name: Accept-Language
       value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: name[en]
+        type: text
+        value: ""
+      - name: name[ar]
+        type: text
+        value: ""
+      - name: image
+        type: text
+        value: ""
   auth:
     type: bearer
     token: h9OrxjIX9tHU9OvNbG43Yk0qvuZbB2HqLxtR85qX2fb116b4

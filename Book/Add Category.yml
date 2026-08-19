@@ -20,9 +20,12 @@ http:
       - name: name[ar]
         type: text
         value: ""
+      - name: image
+        type: text
+        value: ""
   auth:
     type: bearer
-    token: ""
+    token: h9OrxjIX9tHU9OvNbG43Yk0qvuZbB2HqLxtR85qX2fb116b4
 
 settings:
   encodeUrl: true
