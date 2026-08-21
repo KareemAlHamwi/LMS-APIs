@@ -1,0 +1,28 @@
+info:
+  name: Add Borrow
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://127.0.0.1:8000/api/books/1/borrow
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  body:
+    type: multipart-form
+    data:
+      - name: due_date
+        type: text
+        value: ""
+  auth:
+    type: bearer
+    token: DHSUkbT2ARi4clifQsDOiP6GaJWWIJ6SVtcXwPjG401f5839
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,22 @@
+info:
+  name: My Borrows
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: http://127.0.0.1:8000/api/my-borrows
+  headers:
+    - name: Accept
+      value: application/json
+    - name: Accept-Language
+      value: ar
+  auth:
+    type: bearer
+    token: DHSUkbT2ARi4clifQsDOiP6GaJWWIJ6SVtcXwPjG401f5839
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
