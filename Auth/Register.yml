@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/auth/register
+  url: "{{baseUrl}}/api/auth/register"
   headers:
     - name: Accept
       value: application/json
@@ -16,27 +16,19 @@ http:
     data:
       - name: first_name
         type: text
-        value: "Laith "
+        value: "Ali "
       - name: last_name
         type: text
-        value: Alhassan
+        value: Ibrahim
       - name: email
         type: text
-        value: allaithalhassan8@gmail.com
+        value: i19077991@gmail.com
       - name: password
         type: text
         value: 123456789@Qw
       - name: password_confirmation
         type: text
         value: 123456789@Qw
-      - name: ""
-        type: text
-        value: allaithalhassan8@gmail.com
-        disabled: true
-      - name: ""
-        type: text
-        value: i19077991@gmail.com
-        disabled: true
   auth: inherit
 
 settings:

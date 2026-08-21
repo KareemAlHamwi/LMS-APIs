@@ -16,13 +16,13 @@ http:
     data:
       - name: email
         type: text
-        value: ""
+        value: i19077991@gmail.com
       - name: password
         type: text
-        value: ""
+        value: 123456789@Qw
       - name: ""
         type: text
-        value: ""
+        value: 13|SyqkffsU3VvtTArvjoZM7khJwKaHzdMhMH8JXmbZ316d9133
         disabled: true
   auth: inherit
 
