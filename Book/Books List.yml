@@ -1,7 +1,7 @@
 info:
   name: Books List
   type: http
-  seq: 3
+  seq: 4
 
 http:
   method: GET
@@ -11,9 +11,12 @@ http:
       value: application/json
     - name: Accept-Language
       value: ar
+<<<<<<< HEAD
   auth:
     type: bearer
     token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
+=======
+>>>>>>> 3b4faf90130d1e1564c649e9141777785553828a
 
 settings:
   encodeUrl: true

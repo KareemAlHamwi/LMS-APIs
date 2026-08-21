@@ -1,7 +1,7 @@
 info:
   name: Categories List
   type: http
-  seq: 16
+  seq: 17
 
 http:
   method: GET
@@ -13,7 +13,7 @@ http:
       value: ar
   auth:
     type: bearer
-    token: 8KHxNpWXvyJeISdfm3tI0E2Nh67ZnDKCCKKUScb77f668e3f
+    token: h9OrxjIX9tHU9OvNbG43Yk0qvuZbB2HqLxtR85qX2fb116b4
 
 settings:
   encodeUrl: true

@@ -1,7 +1,7 @@
 info:
   name: Category
   type: http
-  seq: 17
+  seq: 18
 
 http:
   method: GET
@@ -13,7 +13,11 @@ http:
       value: ar
   auth:
     type: bearer
+<<<<<<< HEAD
     token: 1|5AyjR6Im5gtg7zCC2b8LSRPvq8u60sHcrYDcPuZK082c1a30
+=======
+    token: h9OrxjIX9tHU9OvNbG43Yk0qvuZbB2HqLxtR85qX2fb116b4
+>>>>>>> 3b4faf90130d1e1564c649e9141777785553828a
 
 settings:
   encodeUrl: true

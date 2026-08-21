@@ -1,0 +1,7 @@
+info:
+  name: Borrow
+  type: folder
+  seq: 7
+
+request:
+  auth: inherit

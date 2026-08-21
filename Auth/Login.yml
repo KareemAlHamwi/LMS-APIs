@@ -16,18 +16,15 @@ http:
     data:
       - name: email
         type: text
-        value: i19077991@gmail.com
+        value: ""
       - name: password
         type: text
-        value: 123456789@Qw
-      - name: ""
-        type: text
-        value: i19077991@gmail.com
-        disabled: true
+        value: ""
       - name: ""
         type: text
         value: ""
         disabled: true
+<<<<<<< HEAD
       - name: ""
         type: text
         value: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
@@ -36,6 +33,8 @@ http:
         type: text
         value: 11|aDLGoEhV5WdQ5gB6eXgort2KioiqkAeFHuGPjvL6dac0c3d9
         disabled: true
+=======
+>>>>>>> 3b4faf90130d1e1564c649e9141777785553828a
   auth: inherit
 
 settings:
