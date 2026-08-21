@@ -19,12 +19,6 @@ http:
         value: "medical "
       - name: name[ar]
         type: text
-<<<<<<< HEAD
-        value: طبي
-  auth:
-    type: bearer
-    token: 1|5AyjR6Im5gtg7zCC2b8LSRPvq8u60sHcrYDcPuZK082c1a30
-=======
         value: ""
       - name: image
         type: text
@@ -32,7 +26,6 @@ http:
   auth:
     type: bearer
     token: h9OrxjIX9tHU9OvNbG43Yk0qvuZbB2HqLxtR85qX2fb116b4
->>>>>>> 3b4faf90130d1e1564c649e9141777785553828a
 
 settings:
   encodeUrl: true
