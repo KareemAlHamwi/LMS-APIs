@@ -5,8 +5,17 @@ info:
 
 http:
   method: POST
-  url: ""
-  auth: inherit
+  url: http://127.0.0.1:8000/api/reward/convert
+  body:
+    type: json
+    data: |-
+      {
+        "user_id": 2,
+        "points":300
+      }
+  auth:
+    type: bearer
+    token: 9|CAV4ORugH3ZxsIFvhwOUyKl5ycBlYi90M771fyqFe4906d20
 
 settings:
   encodeUrl: true

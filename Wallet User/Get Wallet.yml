@@ -8,7 +8,7 @@ http:
   url: http://127.0.0.1:8000/api/wallet
   auth:
     type: bearer
-    token: 1|mYmSiahZkBjbOaez2WZhx1F1uhEOd7VHE0oQsdOM47c1414a
+    token: 2|R6WNO7RE43WlWoJ6Wx3rzsM2An4Xx4QSZ9xVmNTm6c512057
 
 settings:
   encodeUrl: true

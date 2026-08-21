@@ -5,8 +5,10 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/notifications/80dc6b94-ca4c-40d6-a231-67ffcd4f9bd4/read
-  auth: inherit
+  url: http://127.0.0.1:8000/api/notifications/read-all
+  auth:
+    type: bearer
+    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
 
 settings:
   encodeUrl: true

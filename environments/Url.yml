@@ -1,0 +1,5 @@
+name: Url
+variables:
+  - name: baseUrl
+    value: http://192.168.43.122:8003
+    description: ""

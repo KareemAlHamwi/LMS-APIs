@@ -6,7 +6,9 @@ info:
 http:
   method: DELETE
   url: http://127.0.0.1:8000/api/notifications/unread/delete
-  auth: inherit
+  auth:
+    type: bearer
+    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
 
 settings:
   encodeUrl: true

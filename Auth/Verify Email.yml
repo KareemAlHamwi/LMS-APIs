@@ -5,13 +5,13 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/auth/email/verify/1/6267c0612edd9dfd25339661dca65e9fec5d3c00?expires=1779431102&signature=46de51d670ff67a9c298d41dd5e3d964a8ae4abf0dd73124056c7d493be2a62d
+  url: http://127.0.0.1:8000/api/auth/email/verify/2/5ef53126df9601ec2a0c7fc174c0235f924f882c?expires=1786796090&signature=1f4202edbb385ac928ecaf41df0efa3fc4ce71fd9d1c1b6c27a0989c9b1334bb
   params:
     - name: expires
-      value: "1779431102"
+      value: "1786796090"
       type: query
     - name: signature
-      value: 46de51d670ff67a9c298d41dd5e3d964a8ae4abf0dd73124056c7d493be2a62d
+      value: 1f4202edbb385ac928ecaf41df0efa3fc4ce71fd9d1c1b6c27a0989c9b1334bb
       type: query
   auth: inherit
 

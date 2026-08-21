@@ -10,12 +10,12 @@ http:
     type: json
     data: |-
       {
-          "amount": 30000,
+          "amount": 500000,
           "payment_method": "bank_transfer"
       }
   auth:
     type: bearer
-    token: 4|0lLbnbxckQS2CXsDUxz1Relp1sCNmVCxkB0LObdD57b62df6
+    token: 6|RXlJOme31d4i4aqUOnRsqlQXmpfOkorTq0OMTfVP8a505f99
 
 settings:
   encodeUrl: true

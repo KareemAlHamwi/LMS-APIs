@@ -10,13 +10,13 @@ http:
     type: json
     data: |-
       {
-          "user_id": 1,
-          "amount": 50000,
+          "user_id": 2,
+          "amount": 40000,
           "note": "مكافأة شهرية"
       }
   auth:
     type: bearer
-    token: 1|DBHsDW8w3YthxOmkTCdgC0KuAPD4t7i2nIsWqjUe8a47260e
+    token: 9|CAV4ORugH3ZxsIFvhwOUyKl5ycBlYi90M771fyqFe4906d20
 
 settings:
   encodeUrl: true

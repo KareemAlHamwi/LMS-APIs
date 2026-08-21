@@ -6,7 +6,12 @@ info:
 http:
   method: GET
   url: http://127.0.0.1:8000/api/notifications
-  auth: inherit
+  body:
+    type: json
+    data: ""
+  auth:
+    type: bearer
+    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
 
 settings:
   encodeUrl: true

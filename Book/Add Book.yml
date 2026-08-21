@@ -16,10 +16,10 @@ http:
     data:
       - name: title
         type: text
-        value: ""
+        value: Sorry
       - name: description
         type: text
-        value: ""
+        value: Note 7
       - name: cover_image
         type: text
         value: ""
@@ -40,36 +40,39 @@ http:
         value: ""
       - name: total_copies
         type: text
-        value: ""
+        value: "400"
       - name: available_copies
         type: text
-        value: ""
+        value: "200"
       - name: total_stock_copies
         type: text
-        value: ""
+        value: "400"
       - name: available_stock_copies
         type: text
-        value: ""
+        value: "300"
       - name: google_volume_id
         type: text
         value: ""
       - name: author_ids[0]
         type: text
-        value: ""
+        value: "1"
       - name: author_ids
         type: text
         value: ""
         disabled: true
       - name: category_ids[0]
         type: text
-        value: ""
+        value: "1"
       - name: category_ids
         type: text
         value: ""
         disabled: true
+      - name: price
+        type: text
+        value: "2000"
   auth:
     type: bearer
-    token: ""
+    token: 9|CAV4ORugH3ZxsIFvhwOUyKl5ycBlYi90M771fyqFe4906d20
 
 settings:
   encodeUrl: true

@@ -16,19 +16,19 @@ http:
     data:
       - name: name[en]
         type: text
-        value: ""
+        value: ِAli
       - name: name[ar]
         type: text
-        value: ""
+        value: علي
       - name: bio[en]
         type: text
-        value: ""
+        value: ITe
       - name: bio[ar]
         type: text
-        value: ""
+        value: مهندس معلوماتية
   auth:
     type: bearer
-    token: ""
+    token: 1|5AyjR6Im5gtg7zCC2b8LSRPvq8u60sHcrYDcPuZK082c1a30
 
 settings:
   encodeUrl: true

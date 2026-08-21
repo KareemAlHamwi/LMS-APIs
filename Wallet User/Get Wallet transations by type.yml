@@ -8,7 +8,7 @@ http:
   url: http://127.0.0.1:8000/api/wallet/transactions/credit
   auth:
     type: bearer
-    token: 1|DBHsDW8w3YthxOmkTCdgC0KuAPD4t7i2nIsWqjUe8a47260e
+    token: 2|R6WNO7RE43WlWoJ6Wx3rzsM2An4Xx4QSZ9xVmNTm6c512057
 
 settings:
   encodeUrl: true

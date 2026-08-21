@@ -8,7 +8,7 @@ http:
   url: http://127.0.0.1:8000/api/reward/history
   auth:
     type: bearer
-    token: 1|DBHsDW8w3YthxOmkTCdgC0KuAPD4t7i2nIsWqjUe8a47260e
+    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
 
 settings:
   encodeUrl: true

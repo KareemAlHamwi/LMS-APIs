@@ -13,7 +13,7 @@ http:
       value: ar
   auth:
     type: bearer
-    token: ""
+    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
 
 settings:
   encodeUrl: true

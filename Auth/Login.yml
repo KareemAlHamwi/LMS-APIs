@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/auth/login
+  url: "{{baseUrl}}/api/auth/login"
   headers:
     - name: Accept
       value: application/json
@@ -34,7 +34,7 @@ http:
         disabled: true
       - name: ""
         type: text
-        value: 9|CAV4ORugH3ZxsIFvhwOUyKl5ycBlYi90M771fyqFe4906d20
+        value: 11|aDLGoEhV5WdQ5gB6eXgort2KioiqkAeFHuGPjvL6dac0c3d9
         disabled: true
   auth: inherit
 

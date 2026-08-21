@@ -8,7 +8,7 @@ http:
   url: http://127.0.0.1:8000/api/wallet/balance
   auth:
     type: bearer
-    token: 8|7p4Rqzo66uOu0Wzx5vPw43GZQm9xPQIplNFVnAB382ab6e80
+    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
 
 settings:
   encodeUrl: true

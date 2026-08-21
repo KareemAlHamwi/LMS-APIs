@@ -16,19 +16,27 @@ http:
     data:
       - name: first_name
         type: text
-        value: ""
+        value: "Laith "
       - name: last_name
         type: text
-        value: ""
+        value: Alhassan
       - name: email
         type: text
-        value: ""
+        value: allaithalhassan8@gmail.com
       - name: password
         type: text
-        value: ""
+        value: 123456789@Qw
       - name: password_confirmation
         type: text
-        value: ""
+        value: 123456789@Qw
+      - name: ""
+        type: text
+        value: allaithalhassan8@gmail.com
+        disabled: true
+      - name: ""
+        type: text
+        value: i19077991@gmail.com
+        disabled: true
   auth: inherit
 
 settings:

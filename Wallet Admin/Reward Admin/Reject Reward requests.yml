@@ -5,9 +5,10 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/reward/admin/reject/3
+  url: http://127.0.0.1:8000/api/reward/admin/reject/2
   auth:
     type: bearer
+    token: 9|CAV4ORugH3ZxsIFvhwOUyKl5ycBlYi90M771fyqFe4906d20
 
 settings:
   encodeUrl: true
