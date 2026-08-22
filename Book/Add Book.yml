@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/books
+  url: "{{baseUrl}}/api/books"
   headers:
     - name: Accept
       value: application/json
@@ -16,7 +16,7 @@ http:
     data:
       - name: title
         type: text
-        value: Sorry
+        value: Yes
       - name: description
         type: text
         value: Note 7
@@ -40,16 +40,16 @@ http:
         value: ""
       - name: total_copies
         type: text
-        value: "400"
+        value: "5"
       - name: available_copies
         type: text
-        value: "200"
+        value: "5"
       - name: total_stock_copies
         type: text
-        value: "400"
+        value: "5"
       - name: available_stock_copies
         type: text
-        value: "300"
+        value: "5"
       - name: google_volume_id
         type: text
         value: ""
@@ -72,7 +72,7 @@ http:
         value: "2000"
   auth:
     type: bearer
-    token: 9|CAV4ORugH3ZxsIFvhwOUyKl5ycBlYi90M771fyqFe4906d20
+    token: 19|fFydv73NgFKw5pxfVbNssV4R7Ex8Bsc9FQnYF0XXabeba42d
 
 settings:
   encodeUrl: true

@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/books/popular
+  url: "{{baseUrl}}/api/books/popular"
   headers:
     - name: Accept
       value: application/json

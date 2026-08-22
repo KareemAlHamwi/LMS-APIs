@@ -5,7 +5,7 @@ info:
 
 http:
   method: DELETE
-  url: http://127.0.0.1:8000/api/notifications/read/delete
+  url: "{{baseUrl}}api/notifications/read/delete"
   auth:
     type: bearer
     token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9

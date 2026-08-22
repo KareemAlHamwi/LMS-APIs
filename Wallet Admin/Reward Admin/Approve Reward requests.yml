@@ -5,10 +5,10 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/reward/admin/approve/1
+  url: "{{baseUrl}}/api/reward/admin/approve/9"
   auth:
     type: bearer
-    token: 9|CAV4ORugH3ZxsIFvhwOUyKl5ycBlYi90M771fyqFe4906d20
+    token: 19|fFydv73NgFKw5pxfVbNssV4R7Ex8Bsc9FQnYF0XXabeba42d
 
 settings:
   encodeUrl: true

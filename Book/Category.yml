@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/categories/1
+  url: "{{baseUrl}}/api/categories/1"
   headers:
     - name: Accept
       value: application/json
@@ -13,7 +13,7 @@ http:
       value: ar
   auth:
     type: bearer
-    token: h9OrxjIX9tHU9OvNbG43Yk0qvuZbB2HqLxtR85qX2fb116b4
+    token: 1|5AyjR6Im5gtg7zCC2b8LSRPvq8u60sHcrYDcPuZK082c1a30
 
 settings:
   encodeUrl: true

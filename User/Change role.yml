@@ -5,8 +5,16 @@ info:
 
 http:
   method: PUT
-  url: ""
-  auth: inherit
+  url: "{{baseUrl}}/api/user/admin/users/2/role"
+  body:
+    type: json
+    data: |-
+      {
+          "role":"member"
+      }
+  auth:
+    type: bearer
+    token: 19|fFydv73NgFKw5pxfVbNssV4R7Ex8Bsc9FQnYF0XXabeba42d
 
 settings:
   encodeUrl: true

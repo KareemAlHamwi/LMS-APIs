@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/wallet/deposit
+  url: "{{baseUrl}}/api/wallet/deposit"
   body:
     type: json
     data: |-
@@ -14,7 +14,7 @@ http:
       }
   auth:
     type: bearer
-    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
+    token: 18|Bd7CV4Q1ZI5QintzDPA1mzClI93oNROx5FaYOjjo5c79ff70
 
 settings:
   encodeUrl: true

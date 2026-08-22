@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/user/1
+  url: "{{baseUrl}}/api/user/1"
   headers:
     - name: Accept
       value: application/json
@@ -13,7 +13,7 @@ http:
       value: ar
   auth:
     type: bearer
-    token: ""
+    token: 11|aDLGoEhV5WdQ5gB6eXgort2KioiqkAeFHuGPjvL6dac0c3d9
 
 settings:
   encodeUrl: true

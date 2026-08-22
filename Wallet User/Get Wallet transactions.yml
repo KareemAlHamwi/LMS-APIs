@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/wallet/transactions
+  url: "{{baseUrl}}/api/wallet/transactions"
   auth:
     type: bearer
-    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
+    token: 18|Bd7CV4Q1ZI5QintzDPA1mzClI93oNROx5FaYOjjo5c79ff70
 
 settings:
   encodeUrl: true

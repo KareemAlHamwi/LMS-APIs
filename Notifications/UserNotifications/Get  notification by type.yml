@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/notifications/type/conversion_approved
+  url: "{{baseUrl}}/api/notifications/type/conversion_approved"
   params:
     - name: ""
       value: conversion_approved

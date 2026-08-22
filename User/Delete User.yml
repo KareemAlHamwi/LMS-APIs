@@ -5,8 +5,10 @@ info:
 
 http:
   method: DELETE
-  url: ""
-  auth: inherit
+  url: "{{baseUrl}}/api/user/delete/2"
+  auth:
+    type: bearer
+    token: 14|HXaLnRWr0uAPzcyokcIKvhk8higFqAZALsfgFfqr59111674
 
 settings:
   encodeUrl: true

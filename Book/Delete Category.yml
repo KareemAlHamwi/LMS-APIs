@@ -5,7 +5,7 @@ info:
 
 http:
   method: DELETE
-  url: http://127.0.0.1:8000/api/categories/1
+  url: "{{baseUrl}}/api/categories/1"
   headers:
     - name: Accept
       value: application/json

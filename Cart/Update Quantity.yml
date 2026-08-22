@@ -5,7 +5,7 @@ info:
 
 http:
   method: PUT
-  url: http://127.0.0.1:8000/api/cart/2
+  url: "{{baseUrl}}/api/cart/2"
   body:
     type: json
     data: |-

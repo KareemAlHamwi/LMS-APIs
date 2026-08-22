@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/reward/admin/requests
+  url: "{{baseUrl}}/api/reward/admin/requests"
   auth:
     type: bearer
-    token: 1|KFIBfHwV7FXVsEJKSantGeJf1SbBgb6xQd2Rp8eRb489b62c
+    token: 19|fFydv73NgFKw5pxfVbNssV4R7Ex8Bsc9FQnYF0XXabeba42d
 
 settings:
   encodeUrl: true

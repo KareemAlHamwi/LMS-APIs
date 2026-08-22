@@ -5,16 +5,16 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/reward/request-convert
+  url: "{{baseUrl}}/api/reward/request-convert"
   body:
     type: json
     data: |-
       {
-          "points": 300
+          "points": 11700
       }
   auth:
     type: bearer
-    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
+    token: 18|Bd7CV4Q1ZI5QintzDPA1mzClI93oNROx5FaYOjjo5c79ff70
 
 settings:
   encodeUrl: true

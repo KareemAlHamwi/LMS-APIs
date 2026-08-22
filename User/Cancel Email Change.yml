@@ -5,7 +5,7 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/user/cancel-email-change
+  url: "{{baseUrl}}/api/user/cancel-email-change"
   headers:
     - name: Accept
       value: application/json

@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/books/google/search?q=&lang=&per_page=&order_by=
+  url: "{{baseUrl}}/api/books/google/search?q=&lang=&per_page=&order_by="
   headers:
     - name: Accept
       value: application/json

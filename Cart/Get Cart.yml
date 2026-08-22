@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/cart/
+  url: "{{baseUrl}}/api/cart/"
   auth:
     type: bearer
-    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
+    token: 11|aDLGoEhV5WdQ5gB6eXgort2KioiqkAeFHuGPjvL6dac0c3d9
 
 settings:
   encodeUrl: true

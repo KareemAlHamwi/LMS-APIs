@@ -5,17 +5,17 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/cart/add
+  url: "{{baseUrl}}/api/cart/add"
   body:
     type: json
     data: |-
       {
-        "book_id": 1,
-        "quantity":2
+        "book_id": 6,
+        "quantity":1
       }
   auth:
     type: bearer
-    token: 8|HuhAfSZsuJd9HwFCPxW7EAWDRBui882RaUoUwbsT0c24ddf9
+    token: 18|Bd7CV4Q1ZI5QintzDPA1mzClI93oNROx5FaYOjjo5c79ff70
 
 settings:
   encodeUrl: true

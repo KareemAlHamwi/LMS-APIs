@@ -5,9 +5,10 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/wallet/admin/2
+  url: "{{baseUrl}}/api/wallet/admin/2"
   auth:
     type: bearer
+    token: ""
 
 settings:
   encodeUrl: true

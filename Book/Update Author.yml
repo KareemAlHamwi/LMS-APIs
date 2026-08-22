@@ -5,7 +5,7 @@ info:
 
 http:
   method: PUT
-  url: http://127.0.0.1:8000/api/authors/1
+  url: "{{baseUrl}}/api/authors/1"
   headers:
     - name: Accept
       value: application/json

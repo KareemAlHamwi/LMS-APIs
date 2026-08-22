@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: http://127.0.0.1:8000/api/admin/purchases/statistics
+  url: "{{baseUrl}}/api/admin/purchases/statistics"
   auth:
     type: bearer
     token: 2|R6WNO7RE43WlWoJ6Wx3rzsM2An4Xx4QSZ9xVmNTm6c512057

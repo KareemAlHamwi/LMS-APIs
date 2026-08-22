@@ -5,9 +5,10 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/wallet/admin-withdraw
+  url: "{{baseUrl}}/api/wallet/admin-withdraw"
   auth:
     type: bearer
+    token: ""
 
 settings:
   encodeUrl: true

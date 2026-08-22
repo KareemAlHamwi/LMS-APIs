@@ -5,10 +5,10 @@ info:
 
 http:
   method: POST
-  url: http://127.0.0.1:8000/api/wallet/admin/approve-topup/1
+  url: "{{baseUrl}}/api/wallet/admin/approve-topup/5"
   auth:
     type: bearer
-    token: 5|knX2bhk63cvPBf7dKHJHltkOn4TUs7uzY6ljO2w16289ed9d
+    token: 19|fFydv73NgFKw5pxfVbNssV4R7Ex8Bsc9FQnYF0XXabeba42d
 
 settings:
   encodeUrl: true
